@@ -1,0 +1,39 @@
+/* Styling header for mobile version */
+
+header {
+    height: 50px;
+    background-color: #f72210 ;
+}
+
+.svg-size {
+    fill: white; 
+    width: 132px;
+}
+
+.subscribe button {
+    background-color: #FFE40E;
+    font-size: 12px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.subscribe i {
+   color: rgb(216, 212, 212);
+}
+
+/* Header Styling for tablet version */
+
+@media (min-width: 768px) {
+    .subscribe button {
+        font-size: 14px;
+    }
+
+    .subscribe i {
+        font-size: 25px;
+        height: 20px;
+        color: #B6B8CA;
+    }
+
+    .subscribe button {
+        
+    }
+}
