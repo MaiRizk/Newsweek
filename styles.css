@@ -140,3 +140,22 @@ header {
     color: red !important;
   }
 }
+
+/* FEATURED STORIES FOR MOBILE */
+
+section span {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,.9);
+}
+
+.featured-text-header {
+  font-size: 17px;
+  font-family: "Roboto Condensed",sans-serif;
+  line-height: 25px;
+}
+
+.featured-text p {
+  font-size: 13px;
+  font-family: "Roboto Condensed",sans-serif;
+}
