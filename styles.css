@@ -17,12 +17,15 @@ header {
 
 .subscribe button {
   background-color: #ffe40e;
-  font-size: 12px;
+  font-size: 9px;
   font-family: "Roboto Condensed", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .subscribe i {
   color: rgb(216, 212, 212);
+  padding: 0px 5px ;
 }
 
 /* Ángel */
@@ -56,26 +59,26 @@ header {
   height: 32px;
 }
 
-.container-xl {
-  width: unset
+header {
+  width: unset;
 }
 
 /* Ángel */
 
 /* Header Styling for tablet version */
 
-@media (min-width: 400px) {
-  .container-xl {
-    width: 100%
-  }
+@media (min-width: 768px) {
+header {
+  width: 100%;
 }
 
-@media (min-width: 768px) {
+.subscribe {
+  padding-right: 25px;
+}
+
   .subscribe button {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 23px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .subscribe i {
