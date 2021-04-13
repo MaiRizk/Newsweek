@@ -27,8 +27,8 @@ Just clink below the link of the live version and check the page. You can use th
 👤 **Mai Rizk**
 
 - GitHub: [@MaiRizk](https://github.com/MaiRizk)
-- Twitter: [@MaiRizk](https://twitter.com/adiaz9311)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ad9311/)
+- Twitter: [@MaiRizk](https://twitter.com/MaiRizk16)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mai-rizk-252722188/)
 
 👤 **Ángel Díaz**
 
