@@ -188,11 +188,4 @@ header {
   i {
     z-index: 10000;
   }
-
-  li input:focus {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-  }
 }

@@ -4,10 +4,6 @@
 
 This is a clone of [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) using bootstrap.
 
-## Getting Started 💪🏽
-
-Just clink below the link of the live version and check the page. You can use the inspect tool to checkout how we used the different Bootstrap clases.
-
 ![Screenshot1](/img/screenshot1.png)
 
 ![Screenshot2](/img/screenshot2.png)
@@ -17,6 +13,11 @@ Just clink below the link of the live version and check the page. You can use th
 - HTML
 - CSS
 - Bootstrap
+
+## Getting Started 💪🏽
+
+To get the source files you can download the zip file from the green button. 👆🏽
+You can also clone the project using git. If you do not know how to use git you can learn here: [cloning](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). To get the live version just click the link down below. 👇🏽️
 
 ## Live Version Here 👇🏽️
 
