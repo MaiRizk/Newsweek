@@ -114,7 +114,7 @@ header {
 
   .first-ul li {
     border-right: 1px solid #d9d9d9;
-    width: fit-content;
+    width: fit-content(100%);
     padding: 0 17px;
     display: flex;
     justify-content: center;
