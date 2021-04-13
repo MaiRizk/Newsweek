@@ -1,9 +1,11 @@
 /* Styling header for mobile version */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
@@ -18,14 +20,29 @@ header {
 .subscribe button {
   background-color: #ffe40e;
   font-size: 9px;
-  font-family: "Roboto Condensed", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .subscribe i {
   color: rgb(216, 212, 212);
-  padding: 0px 5px ;
+  padding: 0 5px;
+}
+
+.links-red-navbar-black {
+  color: black;
+}
+
+.links-red-navbar-black:hover {
+  color: red;
+}
+
+.links-red-navbar-gray {
+  color: gray;
+}
+
+.links-red-navbar-gray:hover {
+  color: red;
 }
 
 /* Ángel */
@@ -59,22 +76,36 @@ header {
   height: 32px;
 }
 
-header {
-  width: unset;
+.links-black-footer-gray {
+  color: gray;
+}
+
+.links-black-footer-gray:hover {
+  color: black;
 }
 
 /* Ángel */
 
+/* Media Query for small screens */
+
+@media (min-width: 100px) {
+  .width-auto {
+    width: auto;
+  }
+}
+
+@media (min-width: 320px) {
+  .width-auto {
+    width: 100%;
+  }
+}
+
 /* Header Styling for tablet version */
 
 @media (min-width: 768px) {
-header {
-  width: 100%;
-}
-
-.subscribe {
-  padding-right: 25px;
-}
+  .subscribe {
+    padding-right: 25px;
+  }
 
   .subscribe button {
     font-size: 12px;
@@ -127,11 +158,6 @@ header {
 
   .first-ul li {
     border-right: 1px solid #d9d9d9;
-    width: fit-content;
-    padding: 0 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .desktop-nav a {
@@ -141,20 +167,15 @@ header {
   .desktop-nav .second-ul {
     width: 100%;
     height: 50px;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
   }
-
 
   .second-ul li {
     margin-left: 10px;
   }
 
-  .second-ul li:hover a {
-    color: red !important;
-  }
-
- li input{
+  li input {
     width: 60px;
     height: 100%;
     border: unset;
