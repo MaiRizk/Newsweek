@@ -61,6 +61,10 @@ header {
 /* Header Styling for tablet version */
 
 @media (min-width: 768px) {
+  header {
+    position: relative !important;
+  }
+
   .subscribe button {
     font-size: 16px;
     line-height: 23px;
@@ -159,3 +163,19 @@ section span {
   font-size: 13px;
   font-family: "Roboto Condensed",sans-serif;
 }
+
+/* FEATURED STORIES FOR TABLET */
+
+@media (min-width: 768px) {
+  .featured-stories {
+    width: 43%;
+  }
+
+  .featured-text-header {
+    font-size: 20px;
+  }
+
+  .featured-text p{
+    font-size: 15px;
+  }
+} 
