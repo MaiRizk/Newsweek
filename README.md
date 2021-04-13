@@ -6,7 +6,7 @@ This is a clone of [Newsweek](https://web.archive.org/web/20210120125445/https:/
 
 ## Getting Started 💪🏽
 
-Just link the link of the live version and check the page. You can use the inspect tool to checkout how we used the different Bootstrap clases.
+Just clink below the link of the live version and check the page. You can use the inspect tool to checkout how we used the different Bootstrap clases.
 
 ![Screenshot1](/img/screenshot1.png)
 
@@ -20,7 +20,7 @@ Just link the link of the live version and check the page. You can use the inspe
 
 ## Live Version Here 👇🏽️
 
-- [NYT Clone Page](https://ad9311.github.io/nws/)
+- [Newsweek](https://ad9311.github.io/nws/)
 
 ## Author
 
