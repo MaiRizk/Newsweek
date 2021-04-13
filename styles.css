@@ -179,3 +179,10 @@ section span {
     font-size: 15px;
   }
 } 
+
+/* FEATURED STORIES FOR DESKTOP */
+@media (min-width: 1200px) {
+.featured-stories {
+  width: 30%;
+}
+}
