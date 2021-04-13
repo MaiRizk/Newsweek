@@ -1,30 +1,32 @@
 /* Styling header for mobile version */
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 header {
-    height: 50px;
-    background-color: #f72210 ;
+  height: 50px;
+  background-color: #f72210;
 }
 
 .header-svg {
-    fill: white;
+  fill: white;
 }
 
 .subscribe button {
-    background-color: #FFE40E;
-    font-size: 12px;
-    font-family: "Roboto Condensed",sans-serif;
+  background-color: #ffe40e;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .subscribe i {
-   color: rgb(216, 212, 212);
+  color: rgb(216, 212, 212);
 }
 
-/*Ángel*/
+/* Ángel */
+
 .svg-size {
   width: 236px;
   fill: red;
@@ -53,40 +55,37 @@ header {
   width: 32px;
   height: 32px;
 }
-/*Ángel*/
+
+/* Ángel */
 
 /* Header Styling for tablet version */
 
 @media (min-width: 768px) {
-
     .subscribe button {
-        font-size: 16px;
-        line-height: 23px;
-        padding-left: 15px;
-        padding-right: 15px;
+      font-size: 16px;
+      line-height: 23px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .subscribe i {
-        font-size: 25px;
-        height: 20px;
-        color: #B6B8CA;
+      font-size: 25px;
+      height: 20px;
+      color: #b6b8ca;
     }
-
 }
 
 /* Header Styling for Desktop version */
-
 @media (min-width: 1200px) {
-
     header {
         height: 100px;
         align-items: flex-start;
         margin-bottom: 100px;
     }
 
-    header time {
+    header p {
         font-size: 16px;
-        font-family: "Roboto Condensed",sans-serif;
+        font-family: "Roboto Condensed", sans-serif;
     }
 
     .header-svg {
@@ -142,3 +141,4 @@ header {
     }
 
 }
+  
