@@ -1,0 +1,191 @@
+/* Styling header for mobile version */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  height: 50px;
+  background-color: #f72210;
+}
+
+.header-svg {
+  fill: white;
+}
+
+.subscribe button {
+  background-color: #ffe40e;
+  font-size: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.subscribe i {
+  color: rgb(216, 212, 212);
+  padding: 0 5px;
+}
+
+.links-red-navbar-black {
+  color: black;
+}
+
+.links-red-navbar-black:hover {
+  color: red;
+}
+
+.links-red-navbar-gray {
+  color: gray;
+}
+
+.links-red-navbar-gray:hover {
+  color: red;
+}
+
+/* Ángel */
+
+.svg-size {
+  width: 236px;
+  fill: #f72210;
+}
+
+.small-gray-text {
+  font-size: 12px;
+  color: gray;
+}
+
+.footer-icons-size img {
+  width: 22px;
+}
+
+.list-deco-none li {
+  list-style: none;
+}
+
+.hover-black-link a:hover {
+  color: black;
+}
+
+.black-circle-size {
+  z-index: 2;
+  top: 20%;
+  width: 32px;
+  height: 32px;
+}
+
+.links-black-footer-gray {
+  color: gray;
+}
+
+.links-black-footer-gray:hover {
+  color: black;
+}
+
+/* Ángel */
+
+/* Media Query for small screens */
+
+@media (min-width: 100px) {
+  .width-auto {
+    width: auto;
+  }
+}
+
+@media (min-width: 320px) {
+  .width-auto {
+    width: 100%;
+  }
+}
+
+/* Header Styling for tablet version */
+
+@media (min-width: 768px) {
+  .subscribe {
+    padding-right: 25px;
+  }
+
+  .subscribe button {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .subscribe i {
+    font-size: 25px;
+    height: 20px;
+    color: #b6b8ca;
+  }
+}
+
+/* Header Styling for Desktop version */
+@media (min-width: 1200px) {
+  header {
+    height: 100px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+  }
+
+  header p {
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .header-svg {
+    width: 396px;
+    height: 60px;
+  }
+
+  .desktop-nav {
+    height: 100px;
+    background-color: transparent;
+    top: 85px;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+  }
+
+  .desktop-nav ul {
+    list-style: none;
+  }
+
+  .first-ul {
+    background-color: white;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    height: 50px;
+  }
+
+  .first-ul li {
+    border-right: 1px solid #d9d9d9;
+  }
+
+  .desktop-nav a {
+    text-decoration: none;
+  }
+
+  .desktop-nav .second-ul {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+  }
+
+  .second-ul li {
+    margin-left: 10px;
+  }
+
+  li input {
+    width: 60px;
+    height: 100%;
+    border: none;
+  }
+
+  .first-ul li:last-of-type {
+    border-right: unset;
+  }
+
+  i {
+    z-index: 10000;
+  }
+}
