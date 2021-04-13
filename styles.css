@@ -49,7 +49,7 @@ header {
 
 .svg-size {
   width: 236px;
-  fill: red;
+  fill: #f72210;
 }
 
 .small-gray-text {
@@ -178,8 +178,7 @@ header {
   li input {
     width: 60px;
     height: 100%;
-    border: unset;
-    outline: unset;
+    border: none;
   }
 
   .first-ul li:last-of-type {
