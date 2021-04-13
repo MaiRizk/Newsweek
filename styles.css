@@ -147,7 +147,7 @@ header {
 
 /* FEATURED STORIES FOR MOBILE */
 
-section span {
+.featured-div span {
   bottom: 0;
   left: 0;
   background-color: rgba(255,255,255,.9);
@@ -168,7 +168,7 @@ section span {
 
 @media (min-width: 768px) {
   .featured-stories {
-    width: 43%;
+    width: 43% !important;
   }
 
   .featured-text-header {
@@ -183,6 +183,8 @@ section span {
 /* FEATURED STORIES FOR DESKTOP */
 @media (min-width: 1200px) {
 .featured-stories {
-  width: 30%;
+  max-width: 1140px;
+  width: 30% !important;
 }
+
 }
