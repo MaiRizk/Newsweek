@@ -262,4 +262,57 @@ header {
   }
 }
 
-/* FEATURED STORIES FOR MOBILE */
+/* IN THE MAGAZINE FOR MOBILE */
+.magazine-figure span {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.first-span {
+  background-color: #E54912;
+}
+
+/*IN THE MAGAZINE Styling for tablet version */
+
+@media (min-width: 768px) {
+  .see-all-features {
+    cursor: pointer;
+    background-color: rgb(241, 237, 237);
+    padding: 5px 0;
+  }
+
+  .in-the-magazine-figure {
+    margin-bottom: 25px;
+  }
+
+  .see-all-features:hover {
+    background-color: rgb(228, 225, 225);
+  }
+
+  .in-the-magaznie-header {
+    border-bottom: 1px solid #d4d4d4;
+  }
+} 
+
+/*IN THE MAGAZINE Styling for Desktop version */
+
+@media (min-width: 991px) {
+  .in-the-magazine-figure {
+    height: 100%;
+  }
+
+  .magazine-category {
+    height: 95%;
+    margin-top: 5%;
+  }
+
+  .magazine-category img {
+    height: 60%;
+  }
+
+  .magazine-category a {
+    font-size: 20px;
+  }
+}
+
