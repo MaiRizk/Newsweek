@@ -164,6 +164,10 @@ header {
 /* Header Styling for tablet version */
 
 @media (min-width: 768px) {
+  header {
+  position: unset;
+}
+
   .subscribe {
     padding-right: 25px;
   }
@@ -222,7 +226,6 @@ header {
 
   .first-ul {
     background-color: white;
-    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     height: 50px;
   }
 
