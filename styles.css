@@ -10,6 +10,9 @@ body {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
   height: 50px;
   background-color: #f72210;
 }
@@ -138,7 +141,7 @@ header {
 }
 
 .smaller-text {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .line-height-small {
@@ -193,6 +196,7 @@ header {
 /* Header Styling for Desktop version */
 @media (min-width: 991px) {
   header {
+    position: static;
     height: 100px;
     align-items: flex-start;
     margin-bottom: 100px;
@@ -200,7 +204,6 @@ header {
 
   header p {
     font-size: 16px;
-    font-family: "Roboto Condensed", sans-serif;
   }
 
   .header-svg {
@@ -222,7 +225,6 @@ header {
 
   .first-ul {
     background-color: white;
-    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     height: 50px;
   }
 
