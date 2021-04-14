@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Roboto Condensed', sans-serif;
+  line-height: 20px;
 }
 
 header {
@@ -43,6 +44,10 @@ header {
 
 .links-red-navbar-gray:hover {
   color: red;
+}
+
+.white-background {
+  background-color: white;
 }
 
 /* Ángel */
@@ -121,8 +126,8 @@ header {
   font-size: 12px;
 }
 
-.thinner {
-  width: auto;
+.line-height-small {
+  line-height: 18px;
 }
 
 /* Ángel */
@@ -158,16 +163,10 @@ header {
     height: 20px;
     color: #b6b8ca;
   }
-
-  .thinner {
-    width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 /* Header Styling for Desktop version */
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
   header {
     height: 100px;
     align-items: flex-start;
