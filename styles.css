@@ -10,6 +10,9 @@ body {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
   height: 50px;
   background-color: #f72210;
 }
@@ -164,10 +167,6 @@ header {
 /* Header Styling for tablet version */
 
 @media (min-width: 768px) {
-  header {
-    position: unset;
-  }
-
   .subscribe {
     padding-right: 25px;
   }
@@ -197,6 +196,7 @@ header {
 /* Header Styling for Desktop version */
 @media (min-width: 991px) {
   header {
+    position: static;
     height: 100px;
     align-items: flex-start;
     margin-bottom: 100px;
@@ -204,7 +204,6 @@ header {
 
   header p {
     font-size: 16px;
-    font-family: "Roboto Condensed", sans-serif;
   }
 
   .header-svg {
