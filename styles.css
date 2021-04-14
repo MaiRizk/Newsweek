@@ -165,8 +165,8 @@ header {
 
 @media (min-width: 768px) {
   header {
-  position: unset;
-}
+    position: unset;
+  }
 
   .subscribe {
     padding-right: 25px;
