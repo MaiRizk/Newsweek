@@ -290,7 +290,7 @@ header {
   background-color: #f72210;
 }
 
-/*IN THE MAGAZINE Styling for tablet version */
+/* IN THE MAGAZINE Styling for tablet version */
 
 @media (min-width: 768px) {
   .see-all-features {
@@ -312,7 +312,7 @@ header {
   }
 }
 
-/*IN THE MAGAZINE Styling for Desktop version */
+/* IN THE MAGAZINE Styling for Desktop version */
 
 @media (min-width: 991px) {
   .in-the-magazine-figure {
@@ -384,13 +384,13 @@ text-align: center;
 
 .subscribe-button::after {
   height: 20px;
-    background-color: #f4f5f7;
-    border-top: 1px solid #e2e2e2;
-    position: absolute;
-    content: "";
-    width: 100%;
-    bottom: -9%;
-    left: 0;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: -9%;
+  left: 0;
 }
 
 .newsletter-div {
