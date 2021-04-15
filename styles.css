@@ -352,6 +352,11 @@ header {
 
 .overlapping-div {
   height: 70%;
+  margin: auto;
+}
+
+.img-container {
+  width: 100%;
 }
 
 .first-img {
@@ -365,7 +370,12 @@ header {
 }
 
 .third-text {
-  bottom: 12%;
+bottom: 40%;
+left: 50%;
+transform: translateX(-50%);
+width: 90%;
+position: absolute;
+text-align: center;
 }
 
 .subscribe-button {
@@ -412,4 +422,46 @@ header {
 
 .newsletter-div button {
   background-color: #f72210;
+}
+
+.subscribe-div-text {
+  text-align: center;
+}
+/* Last Section for Tablet */
+
+@media (min-width: 768px) {
+  .subscribe-div-text {
+    text-align: left;
+    margin-top: 72px;
+  }
+
+  .subscribe-div {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 37px;
+    height: 300px;
+  }
+
+  .overlapping-div {
+    height: 100%;
+    left: -39%;
+    width: 100%;
+  }
+
+  .third-text {
+    position: static;
+    margin-left: 45%;
+    text-align: left;
+  }
+
+  .first-img {
+    left: 48%;
+    top: 6%;
+  }
+
+  .second-img {
+    left: 78%;
+    top: 12%;
+  }
+
 }
