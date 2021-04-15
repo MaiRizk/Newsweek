@@ -148,6 +148,11 @@ header {
   line-height: 18px;
 }
 
+.img-fixed-size {
+  width: 110px;
+  height: 110px;
+}
+
 /* Ángel */
 
 /* Media Query for small screens */
@@ -161,6 +166,13 @@ header {
 @media (min-width: 320px) {
   .width-auto {
     width: 100%;
+  }
+}
+
+@media (min-width: 482px) {
+  .img-fixed-size {
+    width: 258px;
+    height: 258px;
   }
 }
 
@@ -190,6 +202,11 @@ header {
 
   .featured-text p {
     font-size: 15px;
+  }
+
+  .img-fixed-size {
+    width: 110px;
+    height: 110px;
   }
 }
 
@@ -270,7 +287,7 @@ header {
 }
 
 .first-span {
-  background-color: #E54912;
+  background-color: #f72210;
 }
 
 /*IN THE MAGAZINE Styling for tablet version */
@@ -293,7 +310,7 @@ header {
   .in-the-magaznie-header {
     border-bottom: 1px solid #d4d4d4;
   }
-} 
+}
 
 /*IN THE MAGAZINE Styling for Desktop version */
 
