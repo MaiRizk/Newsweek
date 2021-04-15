@@ -374,13 +374,13 @@ header {
 
 .subscribe-button::after {
   height: 20px;
-    background-color: #f4f5f7;
-    border-top: 1px solid #e2e2e2;
-    position: absolute;
-    content: "";
-    width: 100%;
-    bottom: -9%;
-    left: 0;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: -9%;
+  left: 0;
 }
 
 .newsletter-div {
