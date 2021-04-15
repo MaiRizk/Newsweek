@@ -316,3 +316,41 @@ header {
   }
 }
 
+/* LAST SECTION FOR MOBILE */
+
+.last-section-header::before {
+  height: 20px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: -42px;
+}
+
+.subscribe-div {
+  height: 400px;
+  background-color: #f4f5f6;
+}
+
+.overlapping-div {
+  height: 70%;
+}
+
+.first-img {
+  left: 27%;
+  top: 6%;
+}
+
+.second-img {
+  left: 41%;
+  top: 12%;
+}
+
+.third-text {
+  bottom: 12%;
+}
+
+.subscribe-button {
+  background-color: #f72210;
+}
