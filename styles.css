@@ -354,3 +354,45 @@ header {
 .subscribe-button {
   background-color: #f72210;
 }
+
+.subscribe-button::after {
+  height: 20px;
+    background-color: #f4f5f7;
+    border-top: 1px solid #e2e2e2;
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: -9%;
+    left: 0;
+}
+
+.newsletter-div {
+  margin: 50px 0;
+  height: 400px;
+}
+
+.newsletter-div h2 {
+  padding-top: 20px;
+}
+
+.newsletter-div img {
+  height: 200px;
+}
+
+.newsletter-box {
+  height: 95%;
+}
+
+.input-row {
+  width: 91%;
+  height: 40px;
+}
+
+.input-row input {
+  padding-left: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.newsletter-div button {
+  background-color: #f72210;
+}
