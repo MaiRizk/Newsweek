@@ -290,7 +290,7 @@ header {
   background-color: #f72210;
 }
 
-/*IN THE MAGAZINE Styling for tablet version */
+/* IN THE MAGAZINE Styling for tablet version */
 
 @media (min-width: 768px) {
   .see-all-features {
@@ -312,7 +312,7 @@ header {
   }
 }
 
-/*IN THE MAGAZINE Styling for Desktop version */
+/* IN THE MAGAZINE Styling for Desktop version */
 
 @media (min-width: 991px) {
   .in-the-magazine-figure {
