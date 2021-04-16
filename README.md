@@ -21,7 +21,7 @@ You can also clone the project using git. If you do not know how to use git you 
 
 ## Live Version Here 👇🏽️
 
-- [Newsweek](https://ad9311.github.io/nws/)
+- [Newsweek](https://mairizk.github.io/Newsweek/)
 
 ## Author
 
