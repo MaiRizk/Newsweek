@@ -481,4 +481,106 @@ text-align: center;
     margin-left: 20px;
   }
 
+  .subscribe-button::after {
+    bottom: -13%;
+  }
+
+  .newsletter-div {
+    margin-top: 15px;
+  }
+}
+
+/* Style last section for desktop version */
+
+@media (min-width: 991px) {
+  .last-section {
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-gap: 25px;
+    height: 310px;
+    margin: 60px 0;
+  }
+
+  .subscribe-div-with-header {
+    height: 100%;
+  }
+
+  .subscribe-div-with-header  h2 {
+        margin-top: 10px !important;
+  }
+
+  .subscribe-div {
+    height: 90%;
+    width: 100%;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-gap: 50px;
+  }
+
+  .subscribe-div-text {
+    margin-top: 27px;
+  }
+
+  .third-text {
+    font-size: 25px !important;
+    margin-bottom: 15px;
+  }
+
+  .second-p {
+    margin-bottom: 28px !important;
+  }
+
+  .subscribe-button {
+    width: 113px;
+    height: 42px;
+    font-size: 17px;
+  }
+
+  .last-section-header::before {
+    display: none;
+  }
+
+  .subscribe-button::after {
+    display: none;
+  }
+
+  .newsletter-div {
+    margin-top: 0;
+    height: 100%;
+  }
+
+  .newsletter-with-header {
+    height: 90%;
+  }
+
+  .newsletter-box {
+    height: 100%;
+  }
+
+  .md-first-column img {
+    height: 100%;
+  }
+
+  .md-second-column {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .md-second-column h3 {
+    font-size: 20px;
+  }
+
+  .input-row {
+    height: 33%;
+  }
+
+  .first-input {
+    width: 100% !important;
+    height: 45%;
+    margin-bottom: 10px;
+  }
+
+  .second-input {
+    height: 44px !important;
+    width: 100% !important;
+  }
 }
