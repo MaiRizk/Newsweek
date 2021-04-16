@@ -464,4 +464,21 @@ text-align: center;
     top: 12%;
   }
 
+  .newsletter-div {
+    height: 230px;
+  }
+
+  .newsletter-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .md-second-column {
+    margin-left: 12px;
+  }
+
+  .md-second-column p {
+    margin-left: 20px;
+  }
+
 }
