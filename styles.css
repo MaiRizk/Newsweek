@@ -153,6 +153,11 @@ header {
   height: 110px;
 }
 
+.narrow {
+  width: auto;
+  margin: auto;
+}
+
 /* Ángel */
 
 /* Media Query for small screens */
@@ -207,6 +212,12 @@ header {
   .img-fixed-size {
     width: 110px;
     height: 110px;
+  }
+
+  .narrow {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
   }
 }
 
@@ -276,6 +287,12 @@ header {
 
   i {
     z-index: 10000;
+  }
+
+  .narrow {
+    width: auto;
+    margin: auto;
+    padding-top: 25px;
   }
 }
 
